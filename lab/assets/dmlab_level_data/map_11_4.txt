@@ -1,0 +1,11 @@
+***********
+*A*AAA*AAA*
+*A*A*AAA*A*
+*PAA*AAA*A*
+*AAA*****A*
+*A*AAAAAAA*
+***A*****A*
+*AAA*A*AAA*
+*A***A*A*A*
+*AAGAAAAAA*
+***********

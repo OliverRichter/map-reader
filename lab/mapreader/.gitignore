@@ -1,0 +1,8 @@
+*.pyc
+debug*.png
+*.mov
+log/*
+checkpoints*/*
+memo.txt
+old
+.DS_Store

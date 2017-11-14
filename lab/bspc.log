@@ -1,0 +1,124 @@
+BSPC version 2.1h, redacted redacted
+optimize = true
+forcesidesvisible = true
+bsp2aas: bazel-out/local-fastbuild/genfiles/baselab/map_0_1.bsp to bazel-out/local-fastbuild/genfiles/baselab/map_0_1.aas
+-- Q3_LoadMapFromBSP --
+Loading map from bazel-out/local-fastbuild/genfiles/baselab/map_0_1.bsp...
+   194 triangles
+    18 patch tris
+creating planar surface planes...
+searching visible brush sides...
+     0 brush sides432 brush sides textured out of 432
+-------- Brush CSG ---------
+   146 original brushes
+   146 output brushes
+-------- Brush BSP ---------
+   146 brushes
+   595 visible faces
+     0 nonvisible faces
+   876 total sides
+pthread multi-threading
+     1 threads max
+depth first bsp building
+   819 splits
+     0 KB of peak total bsp memory
+BSP tree created in     0 seconds
+------- Prune Nodes --------
+  200 pruned nodes
+---- Node Portalization ----
+   619 nodes portalized
+     0 tiny portals
+     0 KB of portal memory
+     0 KB of winding memory
+------ FloodEntities -------
+------- FillOutside --------
+  139 solid leaves
+  107 leaves filled
+   64 inside leaves
+AAS_CreateAreas
+    64 areas created
+AAS_MergeAreaFaces
+     7 face merges
+AAS_GravitationalSubdivision
+     0 gravitational subdivisions
+AAS_MergeAreaFaces
+     0 face merges
+AAS_MergeAreas
+    34 areas merged
+AAS_PruneNodes
+   126 nodes pruned
+    30 areas checked for shared face flipping
+AAS_MergeAreaFaces
+   111 face merges
+AAS_MergePlaneFaces
+     2 plane face merges
+AAS_LadderSubdivision
+     0 ladder subdivisions
+AAS_MeltAreaFaceWindings
+    57 edges melted
+AAS_RemoveTinyFaces
+0 tiny faces removed
+AAS_CreateAreaSettings
+allocated 41 KB and 980 bytes of AAS memory
+AAS_StoreFile
+    31 areas stored
+
+AAS created in     0 seconds
+loading collision map...
+CM_LoadMap( bazel-out/local-fastbuild/genfiles/baselab/map_0_1.bsp, 0 )
+0 weapon jump areas
+calculating reachability...
+
+please wait while storing reachability...
+calculating clusters...
+     0 forced portal areas
+possible portal: 8
+possible portal: 7
+possible portal: 28
+possible portal: 27
+portal area 7 has no front cluster
+portal area 8 has no back cluster
+portal area 27 has no front cluster
+
+portal 1: area 28
+     2 portals created
+     3 clusters created
+cluster 1 has 10 reachability areas
+cluster 2 has 6 reachability areas
+    16 total reachability areas
+   504 AAS memory/CPU usage (the lower the better)
+AAS data optimized.
+writing bazel-out/local-fastbuild/genfiles/baselab/map_0_1.aas
+numvertexes = 0
+numplanes = 80
+numedges = 1
+edgeindexsize = 0
+numfaces = 1
+faceindexsize = 0
+numareas = 31
+numareasettings = 31
+reachabilitysize = 41
+numnodes = 184
+numportals = 2
+portalindexsize = 2
+numclusters = 3
+    40 walk
+     0 crouch
+     0 barrier jump
+     0 jump
+     0 ladder
+     0 walk off ledge
+     0 swim
+     0 water jump
+     0 teleport
+     0 elevator
+     0 rocket jump
+     0 bfg jump
+     0 grapple hook
+     0 double jump
+     0 ramp jump
+     0 strafe jump
+     0 jump pad
+     0 func bob
+freed 41 KB and 980 bytes of AAS memory
+BSPC run time is     0 seconds

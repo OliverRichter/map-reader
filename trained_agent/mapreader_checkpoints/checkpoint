@@ -1,0 +1,6 @@
+model_checkpoint_path: "/tmp/mapreader_checkpoints/checkpoint-6664406"
+all_model_checkpoint_paths: "/tmp/mapreader_checkpoints/checkpoint-6300477"
+all_model_checkpoint_paths: "/tmp/mapreader_checkpoints/checkpoint-6400475"
+all_model_checkpoint_paths: "/tmp/mapreader_checkpoints/checkpoint-6500653"
+all_model_checkpoint_paths: "/tmp/mapreader_checkpoints/checkpoint-6600233"
+all_model_checkpoint_paths: "/tmp/mapreader_checkpoints/checkpoint-6664406"
