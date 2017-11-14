@@ -30,6 +30,6 @@ DISPLAY_LEVEL = [120,0]
 in the file ‘lab\mapreader\constants.py’ with the 2 numbers of the map you’d like to display (given in the map name). Then run the display command above.
 
 ## How to load the trained agent
-You can find the checkpoints of the trained agent which was used for the evaluation in the paper in the folder ‘trained_agent’. To display the trained agent, switch to the branch 'version_paper', copy the folder ‘mapreader_checkoints’ into your ‘/tmp’ directory and run the display command above.
+You can find the checkpoints of the trained agent which was used for the evaluation in the paper in the folder ‘trained_agent’. To display the trained agent copy the folder ‘mapreader_checkoints’ into your ‘/tmp’ directory and run the display command above.
 
 
